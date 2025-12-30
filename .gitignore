@@ -1,0 +1,55 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+node_modules/
+
+# next.js
+.next/
+out/
+
+# production
+build/
+
+# debug logs
+/node_modules
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+<<<<<<< HEAD
+# env files (IMPORTANT)
+.env
+.env.local
+.env.*.local
+ENV_SETUP.txt
+
+# vercel
+.vercel/
+=======
+# env files
+.env*
+
+# vercel
+.vercel
+>>>>>>> 15378e2f4f03befc9a6aaa072315c022c9b8b49c
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+<<<<<<< HEAD
+
+# prisma generated files
+lib/generated/prisma/
+=======
+/lib/generated/prisma
+>>>>>>> 15378e2f4f03befc9a6aaa072315c022c9b8b49c
